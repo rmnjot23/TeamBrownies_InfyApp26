@@ -1,0 +1,35 @@
+body {
+    background-color: #0d0f12;        /* Deep charcoal black */
+    color: #c9d1d9;                   /* Muted silver text */
+    font-family: "Orbitron", sans-serif; /* Futuristic game‑style font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    background-image: radial-gradient(circle at top, #1a1f27 0%, #0d0f12 70%);
+}
+
+/* ===== Heading 1 Styling ===== */
+h1 {
+    color: #7f5af0;                   /* Soft neon purple */
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #7f5af0, 0 0 20px #4c2bb8;
+    letter-spacing: 3px;
+}
+
+/* ===== Paragraph Styling ===== */
+p {
+    color: #94a1b2;                   /* Cool gray-blue */
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    text-shadow: 0 0 4px #000;
+}
+
+h1:hover {
+    animation: pulseGlow 2s infinite;
